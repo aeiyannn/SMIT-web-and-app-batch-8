@@ -1,0 +1,28 @@
+.classpurple {
+  color: rgb(252, 107, 252);
+  background-color: yellow;
+}
+.classblue {
+
+  background-color:#b3c0c8;
+  color: white;
+}
+
+#paragraph {
+  font-size: xx-large;
+  color: brown;
+  background: lightblue;
+}
+h1,
+h3 {
+  color: green;
+  background-color: yellow;
+}
+div > p {
+  color: blue;
+  background-color: lightcoral;
+}
+Header + p {
+color: blue;
+background-color: bisque;
+}
