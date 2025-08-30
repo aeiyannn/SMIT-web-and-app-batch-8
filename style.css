@@ -1,28 +1,35 @@
-.classpurple {
-  color: rgb(252, 107, 252);
-  background-color: yellow;
+.bold {
+  font-weight: bold;
+  /* font-size: 100px; */
+  text-transform: capitalize;
 }
-.classblue {
-
-  background-color:#b3c0c8;
-  color: white;
+.italic {
+  font-style: italic;
+  /* font-size: 200px; */
 }
-
-#paragraph {
-  font-size: xx-large;
-  color: brown;
-  background: lightblue;
+.underline {
+  text-decoration: underline double;
 }
-h1,
-h3 {
-  color: green;
-  background-color: yellow;
+.lineHeight {
+  line-height: 50px;
 }
-div > p {
-  color: blue;
-  background-color: lightcoral;
+/* h1 {
+    text-align: center;
+    color: brown;
+    background-color: lightblue;
+    text-shadow: 3px 3px 1px red;
+} */
+a {
+  font-size: 10px;
 }
-Header + p {
-color: blue;
-background-color: bisque;
+a:link {
+  color: pink;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+.fontStyle {
+ font-family: "Asimovian", sans-serif;
 }

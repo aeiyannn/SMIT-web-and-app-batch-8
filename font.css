@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Asimovian&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+.robotoStyle {
+  font-family: "Roboto", sans-serif;
+}
+.AsimovianStyle {
+  font-family: "Asimovian", sans-serif;
+}
+.Oswald {
+  font-family: "Oswald", sans-serif;
+}
+.StoryScript {
+     font-family: "Story Script", sans-serif;
+}
+
+
