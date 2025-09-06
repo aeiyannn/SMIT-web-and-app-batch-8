@@ -1,0 +1,16 @@
+/* @font-face {
+    font-family: "testStyle";
+    src: url("./fonts/Asimovian-Regular.ttf");
+} */
+ * {
+    
+ }
+
+h1 {
+    border: 1px solid red;
+    padding: 10px 25px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
