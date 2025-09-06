@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* .box {
+    color: red;
+    border: 2px solid red;
+    max-width: 400px;
+    min-width: 100px;
+    max-height: 100px;
+    overflow:hidden;
+} */
+
+Header {
+  background: lightgreen;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #bbbbaa #111111 #ee3e80 #0088dd;
+  padding: 5px 10px;
+}
+nav {
+  margin: auto;
+  width: max-content;
+}
+a {
+  margin: 10px;
+}
+.hideClass {
+    visibility: hidden;
+}
+
+/* div {
+    display: inline;
+    border: 1px solid red;
+    height: 100px;
+} */
+
+b {
+    display: inline-block;
+    width: 200px;
+    border: 1px solid red;
+}
+p {
+    display: none;
+}
