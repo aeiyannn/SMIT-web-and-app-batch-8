@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    width: 100%;
+    background-color: aqua;
+    height: 40px;
+}
+ul {
+    margin: 0 auto;
+    width: max-content;
+    color: red;
+    font-weight: bold;
+    text-decoration: underlines;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px;
+   
+}
+
+.dropdown {
+    position: absolute;
+    display: none;
+}
+
+#dropdown-btn:hover .dropdown {
+    display: block;
+}
+
+.dropdown li {
+    display: block;
+  background-color: lightgreen;
+}
