@@ -1,0 +1,23 @@
+.container {
+    border: 1px solid;
+    height: 400px;
+    display: flex;
+}
+
+.container div {
+       border: 2px solid red;
+       padding: 10px;
+       width: 100px;
+       height: 50px;
+       flex-basis: 20%;
+}
+.box5 {
+    /* flex-shrink: 2;
+    order: 3;
+    flex-grow: 2; */
+    /* flex-basis: 20%; */
+}
+.box1 {
+    /* flex-grow: 3;
+    order: 3; */
+}
