@@ -1,0 +1,56 @@
+/* .box {
+    height: 100px;
+    border: 3px solid red;
+    border-radius: 10px 20px 30px 40px;
+    margin: 0 auto;
+}
+p {
+    width: 50%;
+    border:3px solid purple
+}
+.mx {
+    margin-left: 10px;
+    margin-right: 10px;
+} */
+
+ul {
+    color: red;
+    /* list-style-type: circle; */
+    /* list-style-image: url("./list-icon\ \(1\).jpg"); */
+    /* list-style-position: inside; */
+    list-style: inside circle;
+}
+
+ol {
+    list-style-type:lower-greek;
+    margin: 20px;
+}
+.tomato {
+    color: red;
+}
+.onion {
+    color: purple;
+}
+.ladyFinger {
+
+    color: green;
+}
+table {
+    /* width: 500px; */
+    margin: auto;
+    /* border: 2px solid; */
+    /* border-collapse: collapse; */
+    border-spacing: 10px;
+}
+tr {
+    text-align: center;
+    /* border: 2px solid red; */
+}
+th {
+    background-color: black;
+    color: white;
+}
+th , td {
+
+    border: 2px solid black ;
+}
