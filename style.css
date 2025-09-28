@@ -1,0 +1,48 @@
+ol {
+    /* list-style-type: lower-greek; */
+    list-style-image: url("./list-icon\ \(1\).jpg");
+}
+ul {
+    color:  red;
+    /* list-style: circle;
+    list-style-position: inside; */
+    list-style: inside square;
+
+}
+table {
+    color: red;
+    width: 600px;
+    height: 200px;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 0 auto;
+    /* border-spacing: 10px; */
+ 
+}
+tr {
+    border: 2px solid red;
+}
+td {
+    border:2px solid red;
+}
+fieldset {
+    margin: 0 auto;
+    width: max-content;
+    background-color: lawngreen;
+}
+label {
+        color: coral;
+    display: block;
+}
+input {
+
+    border:  2px solid red;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+::placeholder {
+    color: blue;
+}
