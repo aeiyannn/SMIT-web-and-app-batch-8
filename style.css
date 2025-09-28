@@ -1,0 +1,11 @@
+.container {
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns:200px 300px 350px; 
+    gap: 10px;
+    grid-template-rows: 200px 400px 600px;
+}
+.row {
+    border: 2px solid red;
+    /* height: 50px; */
+}
