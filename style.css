@@ -1,0 +1,42 @@
+body {
+    display: grid;
+    place-items: center;
+}
+.container {
+    display: flex;
+}
+
+.container div {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 0px 10px;
+    display: flex;
+}
+
+.box1 {
+    transform: translateX(100px);
+    transform: translateY(100px);
+}
+
+.box2 {
+    background-color: green !important;
+    /* transform: rotate(80deg);
+    transform: scale(0.5) */
+    /* transform: skew(45deg); */
+     transform: matrix(1.5, 0, 0, 0.8, -60, 60);
+}
+
+.loader {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 5px solid red;
+    border-left-color: transparent;
+
+
+}
+/* @keyframes loader {
+   
+} */
