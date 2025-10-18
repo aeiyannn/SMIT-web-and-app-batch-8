@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* display: grid;
+  place-items: center; */
+  height: 100vh;
+  background-image: url(https://media.istockphoto.com/id/1471832471/vector/sunset-sky-background-sunrise-with-yellow-and-blue-sky-nature-landscape-romantic-golden-hour.jpg?s=612x612&w=0&k=20&c=xCymmsdeSaGuvfHK0TJfTzR2LZE0mFuKMlUXWgXQKBA=);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+  /* animation-name: sunBackground;
+  animation-duration: 8s;
+   animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+animation-iteration-count: infinite; */
+animation: sunBackground 8s  ease-in-out  infinite ;
+}
+
+/* .loader {
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 8px solid red;
+  border-right-color: transparent;
+  animation-name: loader;
+  animation-duration: 0.6s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes loader {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animations-container {
+  background-color: aqua;
+  width: 100%;
+  color: white;
+}
+
+.line {
+  height: 50px;
+  width: 40%;
+  background-color: red;
+  margin: 10px 0;
+  animation-name: animationFunction;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.line:nth-child(1) {
+  animation-timing-function: linear;
+}
+.line:nth-child(2) {
+  animation-timing-function: ease;
+}
+.line:nth-child(3) {
+  animation-timing-function: ease-in;
+}
+.line:nth-child(4) {
+  animation-timing-function: ease-out;
+}
+.line:nth-child(5) {
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes animationFunction {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(600px);
+  }
+} */
+
+.sun {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: yellow;
+  border-radius: 50%;
+  bottom: -70px;
+  left: 90%;
+  /* animation-name: sunAnimation;
+  animation-duration: 8s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite; */
+  animation: sunAnimation 8s  ease-in-out  infinite ;
+}
+
+@keyframes sunAnimation {
+  0% {
+    bottom: -50px;
+    left: -50px;
+    background-color: rgb(250, 246, 56);
+    box-shadow: 0 0 20px rgb(250, 246, 56);
+  }
+  25% {
+    bottom: 150px;
+    left: 150px;
+    background-color: yellow;
+    box-shadow: 0 0 15px yellow;
+  }
+  50% {
+    bottom: 300px;
+    left: 40%;
+    background-color: orange;
+    box-shadow: 0 0 30px orange;
+  }
+  75% {
+    bottom: 150px;
+    left: 60%;
+    background-color: rgb(205, 232, 255);
+    box-shadow: 0 0 15px rgb(205, 232, 255);
+  }
+  100% {
+    bottom: -70px;
+    left: 90%;
+    background-color: white;
+    box-shadow: 0 0 20px white;
+  }
+}
+
+@keyframes sunBackground {
+  0% {
+    background-image: url(https://media.istockphoto.com/id/1471832471/vector/sunset-sky-background-sunrise-with-yellow-and-blue-sky-nature-landscape-romantic-golden-hour.jpg?s=612x612&w=0&k=20&c=xCymmsdeSaGuvfHK0TJfTzR2LZE0mFuKMlUXWgXQKBA=);
+  }
+  25% {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV5lLAP9YV-ivBjooZt7HzNHMamon3yOwCxg&s);
+  }
+  50% {
+    background-image: url(https://cdn.wallpapersafari.com/12/74/5jrpst.png);
+  }
+  75% {
+    background-image: url(https://img.goodfon.com/wallpaper/big/b/2c/priroda-pirs-most-re-reka.webp);
+  }
+  100% {
+    background-image: url(https://wallpapers.com/images/featured/beautiful-night-i9neq2ed7blcu74r.jpg);
+  }
+}
