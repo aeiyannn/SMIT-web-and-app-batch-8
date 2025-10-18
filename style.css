@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+  display: grid;
+  place-items: center;
+}
+
+h1 {
+  color: green;
+}
+
+/* @media screen and (min-width:768px) and (max-width:1023px){
+    h1 {
+        color: blue;
+    }
+} */
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-name: smoothBorder;
+  animation-duration: 5s;
+  position: absolute;
+  animation-direction: alternate;
+  /* animation-iteration-count: infinite; */
+  top:calc(100vh - 100px);
+   border-radius: 50%;
+
+}
+@keyframes smoothBorder {
+  from {
+    background-color: lightgreen;
+    border-radius: 0;
+    top:0
+  }
+  to {
+    border-radius: 50%;
+    background-color: lightcoral;
+    top:calc(100vh - 100px)
+    /* top: 100%; */
+    /* bottom: 0; */
+  }
+}
+
+@media (768px <= width <=1023px) {
+  h1 {
+    color: blue;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  h1 {
+    color: red;
+  }
+}
