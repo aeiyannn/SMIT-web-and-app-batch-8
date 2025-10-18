@@ -1,0 +1,26 @@
+h1 {
+  color: blue;
+  font-size: 100px;
+}
+
+/* @media screen and (min-width:321px) and (max-width:768px){
+
+    h1 {
+        color: green;
+        font-size: 80px;
+    }
+} */
+
+@media (321px <= width <=768px) {
+  h1 {
+    color: green;
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  h1 {
+    color: red;
+    font-size: 40px;
+  }
+}
