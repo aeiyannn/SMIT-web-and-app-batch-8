@@ -89,6 +89,7 @@ header {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,400px);
+    grid-auto-rows: 400px;
     gap: 20px;
     width: 90vw;
     margin: 0 auto;
@@ -108,14 +109,15 @@ header {
 
 .card-content {
     position: absolute;
+    width: 100%;
+    text-align: center;
     top: 0;
     left: 0;
 }
 
 .card-content > img {
   width: 200px;
-    height: 200px;
-   margin: 0 80px;
+  height: 200px;
 }
 .card-details {
     color: var(--backgound-color);
@@ -130,6 +132,7 @@ header {
     font-size: 24px;
     font-weight: 600;
     width: 147px;
+    text-align: start;
 }
 
 .card-details img {
@@ -264,6 +267,92 @@ hr {
     font-size: 24px;
 }
 
+
+@media screen and (max-width:768px){
+   
+.hero-child h1 {
+    width: 100%;
+    font-size: 30px;
+}
+.hero-section {
+    margin: 10px auto;
+}
+.grid-container {
+    grid-template-columns: repeat(2,1fr);
+}
+header {
+    background-size: cover;
+    background-position: center;
+} 
+
+footer {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.social {
+flex-direction: column;
+}
+.info {
+    flex-direction: column;
+}
+
+.info h3 {
+    font-size: 20px;
+}
+}
+
+
+@media screen and (max-width:375px) {
+ .navbar {
+    flex-direction: column;
+    gap:10px;
+ }
+
+ .nav-links a {
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+ }
+ 
+
+
+.navbar img {
+    align-self: start;
+}
+
+.highlighted-text {
+    font-size:40px;
+    margin: 20px;
+}
+.grid-container {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+}
+.card-content {
+    width: 100%;
+}
+.banner {
+    background-size: cover;
+}
+
+.banner-info h2 {
+    font-size: 30px;
+}
+.banner-info p {
+    font-size: 20px;
+}
+
+.banner-info button {
+    padding: 8px 16px;
+    font-size: 15px;
+    width: 50%;
+
+}
+
+
+
+
+}
 
 
 
