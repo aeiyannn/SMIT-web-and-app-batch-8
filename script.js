@@ -94,3 +94,6 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(card);
     });
 });
+
+const copyRightYear=document.querySelector("#cr-year")
+copyRightYear.textContent=`${new Date().getFullYear()}`
