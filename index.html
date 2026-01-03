@@ -1,39 +1,1291 @@
-<html>
-  <head>
-    <title>First HTML Class</title>
-  </head>
-  <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMIT Web & App Batch 8 - Code Snippets</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css" integrity="sha512-Jk4AqjWsdSzSWCSuQTfYRIF84Rq/eV0G2+tu07byYwHcbTGfdmLrHjUSwvzp5HvbiqK4ibmNwdcG49Y5RGYPTg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>SMIT Batch 8 By Sir Aeiyan Khan</h1>
+                <span class="subtitle">Web & App Development</span>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#html" class="nav-link active">HTML</a></li>
+                <li><a href="#css" class="nav-link">CSS</a></li>
+                <li><a href="#bootstrap" class="nav-link">Bootstrap</a></li>
+                <li><a href="#javascript" class="nav-link">JavaScript</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <!-- Headings -->
-    <h1>Heading 1</h1>
-    <h2>Heading 2</h2>
-    <h3>Heading 3</h3>
-    <h4>Heading 4</h4>
-    <h5>Heading 5</h5>
-    <h6>Heading 6</h6>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Code Snippets Collection</h2>
+                <p>A comprehensive collection of code examples from Class 1 to the final class, covering HTML, CSS, Bootstrap, and JavaScript.</p>
+            </div>
+        </section>
 
-    <!-- Text formatting examples -->
-    <b>Bold text</b>
-    <i>Italic text</i>
-    <u>Underlined text</u>
-    <small>This is small text</small>
-    <mark>This text is highlighted</mark>
+        <!-- HTML Section -->
+        <section id="html" class="category-section">
+            <h2 class="section-title">HTML Basics</h2>
+            <div class="snippets-container">
+                
+                <!-- Class 1 -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>Class 1: HTML Fundamentals</h3>
+                        <span class="branch-tag">class-1</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Headings, text formatting, line breaks, superscript, subscript, and quotations.</p>
+                        <pre><code class="language-html">&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;First HTML Class&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;!-- Headings --&gt;
+    &lt;h1&gt;Heading 1&lt;/h1&gt;
+    &lt;h2&gt;Heading 2&lt;/h2&gt;
+    &lt;h3&gt;Heading 3&lt;/h3&gt;
+    &lt;h4&gt;Heading 4&lt;/h4&gt;
+    &lt;h5&gt;Heading 5&lt;/h5&gt;
+    &lt;h6&gt;Heading 6&lt;/h6&gt;
 
-    <!-- Line break example -->
-    First line<br>
+    &lt;!-- Text formatting examples --&gt;
+    &lt;b&gt;Bold text&lt;/b&gt;
+    &lt;i&gt;Italic text&lt;/i&gt;
+    &lt;u&gt;Underlined text&lt;/u&gt;
+    &lt;small&gt;This is small text&lt;/small&gt;
+    &lt;mark&gt;This text is highlighted&lt;/mark&gt;
+
+    &lt;!-- Line break example --&gt;
+    First line&lt;br&gt;
     Second line
 
-    <br><br>
+    &lt;!-- Superscript and Subscript --&gt;
+    5&lt;sup&gt;2&lt;/sup&gt; = 25&lt;br&gt;
+    CO&lt;sub&gt;2&lt;/sub&gt; is carbon dioxide
 
-    <!-- Superscript and Subscript -->
-    5<sup>2</sup> = 25<br>
-    CO<sub>2</sub> is carbon dioxide
+    &lt;!-- Horizontal line --&gt;
+    &lt;hr&gt;
 
-    <!-- Horizontal line -->
-    <hr>
+    &lt;!-- Quotation --&gt;
+    &lt;q&gt;Learning HTML is fun!&lt;/q&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+                    </div>
+                </article>
 
-    <!-- Quotation -->
-    <q>Learning HTML is fun!</q>
+                <!-- Class 2 -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>Class 2: Semantic HTML Tags</h3>
+                        <span class="branch-tag">class-2</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Strong, emphasis, blockquote, abbreviations, and text modifications.</p>
+                        <pre><code class="language-html">&lt;strong&gt;This is a strong tag&lt;/strong&gt;
+&lt;em&gt;This is an emphasized tag&lt;/em&gt;
+&lt;blockquote&gt;This is a blockquote tag&lt;/blockquote&gt;
+&lt;q&gt;This is a q tag&lt;/q&gt;
+&lt;abbr title="Hypertext Markup Language"&gt;HTML&lt;/abbr&gt;
+&lt;ins&gt;This is an inserted text&lt;/ins&gt;
+&lt;del&gt;This is a deleted text&lt;/del&gt;
+&lt;s&gt;This is a strikethrough text&lt;/s&gt;</code></pre>
+                    </div>
+                </article>
 
-  </body>
+                <!-- Class 3 -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>Class 3: Lists and Images</h3>
+                        <span class="branch-tag">class-3</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Ordered lists, unordered lists, nested lists, links, and images.</p>
+                        <pre><code class="language-html">&lt;ul&gt;
+    &lt;li&gt;Fruit
+        &lt;ol&gt;
+            &lt;li&gt;Apple
+                &lt;ul&gt;
+                    &lt;li&gt;Red Apple&lt;/li&gt;
+                    &lt;li&gt;Green Apple&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Grapes&lt;/li&gt;
+            &lt;li&gt;Banana&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/li&gt;
+    &lt;li&gt;Meat&lt;/li&gt;
+    &lt;li&gt;Vegetable&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;a href="https://www.facebook.com/"&gt;Facebook&lt;/a&gt;
+&lt;a href="https://www.google.com/"&gt;Google&lt;/a&gt;
+&lt;img src="./image.png" width="100%" height="100%"&gt;</code></pre>
+                    </div>
+                </article>
+
+                <!-- Class 4 -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>Class 4: Tables</h3>
+                        <span class="branch-tag">class-4</span>
+                    </div>
+                    <div class="card-body">
+                        <p>HTML tables with colspan and rowspan attributes.</p>
+                        <pre><code class="language-html">&lt;table border="1"&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Monday&lt;/th&gt;
+        &lt;th&gt;Tuesday&lt;/th&gt;
+        &lt;th&gt;Wednesday&lt;/th&gt;
+        &lt;th&gt;Thursday&lt;/th&gt;
+        &lt;th&gt;Friday&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;th colspan="3"&gt;Math&lt;/th&gt;
+        &lt;th&gt;Islamic studies&lt;/th&gt;
+        &lt;th&gt;DSA&lt;/th&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+                    </div>
+                </article>
+
+                <!-- Class 5 -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>Class 5: Forms</h3>
+                        <span class="branch-tag">class-5</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Form elements: text inputs, passwords, radio buttons, checkboxes, select, and file upload.</p>
+                        <pre><code class="language-html">&lt;form action="" method="post"&gt;
+    &lt;label for="firstName"&gt;First Name&lt;/label&gt;
+    &lt;input type="text" maxlength="10" minlength="5" 
+           name="firstName" placeholder="Enter your first Name" required&gt;
+    
+    &lt;label for="password"&gt;Password&lt;/label&gt;
+    &lt;input type="password" name="password" 
+           placeholder="Enter your password" required&gt;
+    
+    &lt;button type="submit"&gt;Submit&lt;/button&gt;
+
+    &lt;!-- Radio Buttons --&gt;
+    &lt;input type="radio" name="city" value="hyderabad"&gt;
+    &lt;label&gt;Hyderabad&lt;/label&gt;
+    &lt;input type="radio" name="city" value="karachi"&gt;
+    &lt;label&gt;Karachi&lt;/label&gt;
+
+    &lt;!-- Checkboxes --&gt;
+    &lt;input type="checkbox" name="city"&gt;
+    &lt;label&gt;Hyderabad&lt;/label&gt;
+    &lt;input type="checkbox" name="city"&gt;
+    &lt;label&gt;Karachi&lt;/label&gt;
+
+    &lt;!-- Select Dropdown --&gt;
+    &lt;select name="country"&gt;
+        &lt;option value="Pakistan"&gt;Pakistan&lt;/option&gt;
+        &lt;option value="Oman"&gt;Oman&lt;/option&gt;
+        &lt;option value="India"&gt;India&lt;/option&gt;
+    &lt;/select&gt;
+
+    &lt;!-- File Upload --&gt;
+    &lt;input type="file" accept="image/*"&gt;
+&lt;/form&gt;</code></pre>
+                    </div>
+                </article>
+
+                <!-- Class 7 -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>Class 7: Navigation & Page Structure</h3>
+                        <span class="branch-tag">class-7</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Header, navigation, main content, footer, iframes, video, and audio elements.</p>
+                        <pre><code class="language-html">&lt;Header&gt;
+    &lt;nav&gt;
+        &lt;center&gt;
+            &lt;a href="#"&gt;Home&lt;/a&gt;
+            &lt;a href="./Pages/about.html" target="_blank"&gt;About&lt;/a&gt;
+            &lt;a href="./Pages/service.html"&gt;Service&lt;/a&gt;
+            &lt;a href="./Pages/contact.html"&gt;Contact us&lt;/a&gt;
+        &lt;/center&gt;
+    &lt;/nav&gt;
+&lt;/Header&gt;
+&lt;main&gt;
+    &lt;h1 align="center"&gt;This is a Home Page&lt;/h1&gt;
+    &lt;p&gt;Lorem ipsum dolor sit amet...&lt;/p&gt;
+&lt;/main&gt;
+&lt;footer&gt;
+    &amp;copy; copyright developed by Aeiyan khan
+&lt;/footer&gt;
+
+&lt;!-- Iframe Example --&gt;
+&lt;iframe src="https://www.wikipedia.org/" 
+        width="100%" height="1000px"&gt;&lt;/iframe&gt;
+
+&lt;!-- Video Example --&gt;
+&lt;video poster="thumbnail.jpg" src="video.mp4" 
+       width="100%" controls loop&gt;&lt;/video&gt;
+
+&lt;!-- Audio Example --&gt;
+&lt;audio src="./audio.mp3" controls&gt;&lt;/audio&gt;</code></pre>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- CSS Section -->
+        <section id="css" class="category-section">
+            <h2 class="section-title">CSS Styling</h2>
+            <div class="snippets-container">
+                
+                <!-- Class 8 -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>Class 8: CSS Selectors</h3>
+                        <span class="branch-tag">class-8</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Classes, IDs, element selectors, child selectors, and adjacent sibling selectors.</p>
+                        <pre><code class="language-css">.classpurple {
+  color: rgb(252, 107, 252);
+  background-color: yellow;
+}
+
+.classblue {
+  background-color: #b3c0c8;
+  color: white;
+}
+
+#paragraph {
+  font-size: xx-large;
+  color: brown;
+  background: lightblue;
+}
+
+h1, h3 {
+  color: green;
+  background-color: yellow;
+}
+
+/* Child Selector */
+div > p {
+  color: blue;
+  background-color: lightcoral;
+}
+
+/* Adjacent Sibling Selector */
+Header + p {
+  color: blue;
+  background-color: bisque;
+}</code></pre>
+                    </div>
+                </article>
+
+                <!-- Class 16 - Positions -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>Class 16: CSS Positions</h3>
+                        <span class="branch-tag">class-16-positions-css</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Dropdown menu using CSS positioning.</p>
+                        <pre><code class="language-css">* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    background-color: aqua;
+    height: 40px;
+}
+
+ul {
+    margin: 0 auto;
+    width: max-content;
+    color: red;
+    font-weight: bold;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.dropdown {
+    position: absolute;
+    display: none;
+}
+
+#dropdown-btn:hover .dropdown {
+    display: block;
+}
+
+.dropdown li {
+    display: block;
+    background-color: lightgreen;
+}</code></pre>
+                    </div>
+                </article>
+
+                <!-- Class 18 - Flexbox -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>Class 18: CSS Flexbox</h3>
+                        <span class="branch-tag">class-18-flex-css</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Flexbox container and flex items with flex-basis, flex-grow, and flex-shrink.</p>
+                        <pre><code class="language-css">.container {
+    border: 1px solid;
+    height: 400px;
+    display: flex;
+}
+
+.container div {
+    border: 2px solid red;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    flex-basis: 20%;
+}
+
+.box5 {
+    flex-shrink: 2;
+    order: 3;
+    flex-grow: 2;
+}
+
+.box1 {
+    flex-grow: 3;
+    order: 3;
+}</code></pre>
+                    </div>
+                </article>
+
+                <!-- Class 20 - Grid -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>Class 20: CSS Grid</h3>
+                        <span class="branch-tag">class-20-grid</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Grid layout with template columns and rows.</p>
+                        <pre><code class="language-css">.container {
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: 200px 300px 350px; 
+    gap: 10px;
+    grid-template-rows: 200px 400px 600px;
+}
+
+.row {
+    border: 2px solid red;
+}</code></pre>
+                    </div>
+                </article>
+
+                <!-- Class 24 - Animations -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>Class 24: CSS Animations</h3>
+                        <span class="branch-tag">class-24-animations</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Keyframe animations and media queries.</p>
+                        <pre><code class="language-css">* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-items: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: smoothBorder;
+    animation-duration: 5s;
+    position: absolute;
+    animation-direction: alternate;
+    top: calc(100vh - 100px);
+    border-radius: 50%;
+}
+
+@keyframes smoothBorder {
+    from {
+        background-color: lightgreen;
+        border-radius: 0;
+        top: 0;
+    }
+    to {
+        border-radius: 50%;
+        background-color: lightcoral;
+        top: calc(100vh - 100px);
+    }
+}
+
+@media (768px <= width <= 1023px) {
+    h1 {
+        color: blue;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    h1 {
+        color: red;
+    }
+}</code></pre>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Bootstrap Section -->
+        <section id="bootstrap" class="category-section">
+            <h2 class="section-title">Bootstrap Framework</h2>
+            <div class="snippets-container">
+                
+                <!-- Bootstrap 1 -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>Bootstrap 1: Navbar & Carousel</h3>
+                        <span class="branch-tag">bootstrap-1</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Responsive navbar with search form and image carousel.</p>
+                        <pre><code class="language-html">&lt;!-- Bootstrap CDN --&gt;
+&lt;link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+      rel="stylesheet"&gt;
+
+&lt;nav class="navbar navbar-expand-lg"&gt;
+    &lt;div class="container-fluid"&gt;
+        &lt;img style="height: 50px; width: 50px;" src="logo.png" alt=""&gt;
+        &lt;button class="navbar-toggler" type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarSupportedContent"&gt;
+            &lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;div class="collapse navbar-collapse" id="navbarSupportedContent"&gt;
+            &lt;ul class="navbar-nav me-auto mb-2 mb-lg-0"&gt;
+                &lt;li class="nav-item"&gt;
+                    &lt;a class="nav-link active" href="#"&gt;Home&lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-item"&gt;
+                    &lt;a class="nav-link" href="#"&gt;About&lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-item"&gt;
+                    &lt;a class="nav-link" href="#"&gt;Contact&lt;/a&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;form class="d-flex" role="search"&gt;
+                &lt;input class="form-control me-2" type="search" 
+                       placeholder="Search"&gt;
+                &lt;button class="btn btn-outline-success"&gt;Search&lt;/button&gt;
+            &lt;/form&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/nav&gt;
+
+&lt;!-- Carousel --&gt;
+&lt;div id="carouselExample" class="carousel slide"&gt;
+    &lt;div class="carousel-inner"&gt;
+        &lt;div class="carousel-item active"&gt;
+            &lt;img src="image1.jpg" class="d-block w-100" alt="..."&gt;
+        &lt;/div&gt;
+        &lt;div class="carousel-item"&gt;
+            &lt;img src="image2.jpg" class="d-block w-100" alt="..."&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button class="carousel-control-prev" type="button" 
+            data-bs-target="#carouselExample" data-bs-slide="prev"&gt;
+        &lt;span class="carousel-control-prev-icon"&gt;&lt;/span&gt;
+    &lt;/button&gt;
+    &lt;button class="carousel-control-next" type="button" 
+            data-bs-target="#carouselExample" data-bs-slide="next"&gt;
+        &lt;span class="carousel-control-next-icon"&gt;&lt;/span&gt;
+    &lt;/button&gt;
+&lt;/div&gt;
+
+&lt;script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"&gt;&lt;/script&gt;</code></pre>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- JavaScript Section -->
+        <section id="javascript" class="category-section">
+            <h2 class="section-title">JavaScript</h2>
+            <div class="snippets-container">
+                
+                <!-- JS 1 -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>JS 1: Introduction to JavaScript</h3>
+                        <span class="branch-tag">js-1</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Console.log, alert, and variables.</p>
+                        <pre><code class="language-javascript">// console.log is used to display output in the browser console
+console.log("Hello World");
+
+// alert displays a popup message
+alert("Hello, this is a popup!");
+
+// Variables store data in JavaScript
+var firstName = "Aeiyan";
+var age = 22;
+
+// Display variables in the console
+console.log(firstName, age);
+
+// Concatenate (join) variables using the + operator
+alert(firstName + age);</code></pre>
+                    </div>
+                </article>
+
+                <!-- JS 2 -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>JS 2: Operators & Variables</h3>
+                        <span class="branch-tag">js-2</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Arithmetic operators, string concatenation, and type coercion.</p>
+                        <pre><code class="language-javascript">// Declare variables
+var name = "Aeiyan";
+var course = "SMIT WEB AND APP";
+var age = 10;
+
+console.log(course);
+
+// Addition between numbers
+console.log(20 + 10); // Output: 30 
+
+// Addition between strings (concatenation)
+console.log("20" + "10"); // Output: "2010" 
+
+// Subtraction between strings (type coercion)
+console.log("20" - "10"); // Output: 10
+
+// Modulus (remainder)
+console.log(20 % 10); // Output: 0
+console.log(10 % 3); // Output: 1
+
+// Increment operator
+var num = 3;
+console.log(++num); // Pre-increment: 4</code></pre>
+                    </div>
+                </article>
+
+                <!-- JS 3 -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>JS 3: Increment & Decrement</h3>
+                        <span class="branch-tag">Js-3-post/pre-increment</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Pre-increment, post-increment, and prompt for user input.</p>
+                        <pre><code class="language-javascript">var counter = 10;
+console.log(counter);   // 10
+console.log(--counter); // 9 (pre-decrement)
+console.log(--counter); // 8
+console.log(++counter); // 9 (pre-increment)
+
+// Post-increment example
+var age = 20;
+console.log(age++); // 20 (used first, then increased)
+console.log(age++); // 21
+console.log(age);   // 22
+
+// User input with prompt
+var age = +prompt("What is your age?", "Enter your age");
+
+if (age == 18) {
+    alert("The entered age is 18");
+}</code></pre>
+                    </div>
+                </article>
+
+                <!-- JS 4 -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>JS 4: If-Else Conditions</h3>
+                        <span class="branch-tag">Js-4-if-else-else-if</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Conditional statements and grade calculation.</p>
+                        <pre><code class="language-javascript">// Generate multiplication table
+var num = prompt("Enter any number to generate a Table");
+alert(
+    num + " X 1 = " + num * 1 + "\n" +
+    num + " X 2 = " + num * 2 + "\n" +
+    num + " X 3 = " + num * 3 + "\n" +
+    // ... continues to 10
+);
+
+// Age verification
+var age = parseInt(prompt("Enter Your age"));
+if (age >= 18) {
+    console.log("You are 18+ you can enter");
+} else {
+    console.log("You can't access this website");
+}
+
+// Grade calculation
+var percentage = +prompt("Enter your percentage");
+if (percentage >= 80) {
+    alert("Congrats! Your grade is A1");
+} else if (percentage >= 70) {
+    alert("A");
+} else if (percentage >= 60) {
+    alert("B");
+} else if (percentage >= 50) {
+    alert("C");
+} else {
+    alert("You failed");
+}</code></pre>
+                    </div>
+                </article>
+
+                <!-- JS 5 -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>JS 5: Logical Operators</h3>
+                        <span class="branch-tag">js-5-logical-operator</span>
+                    </div>
+                    <div class="card-body">
+                        <p>AND, OR, NOT operators and nested conditions.</p>
+                        <pre><code class="language-javascript">// Logical operators
+var isManagerExist = false;
+var isCashier1Exist = true;
+var isCashier2Exist = true;
+
+if ((isCashier1Exist || isCashier2Exist) && isManagerExist) {
+    console.log("Alert! Manager is coming");
+}
+
+// NOT operator
+var isLogin = false;
+if (!isLogin) {
+    console.log("Navigate to Home page");
+} else {
+    console.log("Login page");
+}
+
+// Nested conditions
+var fruitInput = prompt("Enter any green color fruit");
+
+if (fruitInput.toLowerCase() === "watermelon") {
+    console.log("This fruit is green");
+} else {
+    if (fruitInput.toLowerCase() === "apple") {
+        console.log("This fruit is also green but not our criteria");
+    } else {
+        console.log("This fruit is not green");
+    }
+}</code></pre>
+                    </div>
+                </article>
+
+                <!-- JS 6 -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>JS 6: Switch Case</h3>
+                        <span class="branch-tag">js-6-switch-case</span>
+                    </div>
+                    <div class="card-body">
+                        <p>ATM machine simulation using switch case.</p>
+                        <pre><code class="language-javascript">var option = prompt(
+    "Welcome to ABC ATM \n" +
+    "Press 1 for withdraw amount \n" +
+    "Press 2 to check your balance \n" +
+    "Press 3 to transfer money \n"
+);
+
+switch (option) {
+    case "1":
+        var withdrawAmount = prompt("Enter your withdraw amount");
+        console.log(withdrawAmount);
+        alert("Transaction Successful");
+        break;
+    case "2":
+        var balance = 2500;
+        alert("Your balance is " + balance);
+        break;
+    case "3":
+        var accountNumber = prompt("Enter receiver account no");
+        var amount = prompt("Enter amount");
+        console.log(accountNumber, amount);
+        alert("Amount Successfully transferred");
+        break;
+    default:
+        console.log("Invalid number");
+}</code></pre>
+                    </div>
+                </article>
+
+                <!-- JS 7 -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>JS 7: For Loops</h3>
+                        <span class="branch-tag">js-7-loops</span>
+                    </div>
+                    <div class="card-body">
+                        <p>For loop to generate multiplication table.</p>
+                        <pre><code class="language-javascript">// For loop syntax:
+// i = 1 (start from 1)
+// i <= 10 (continue while i is less than or equal to 10)
+// i++ (increase by 1 each iteration)
+
+for (var i = 1; i <= 10; i++) {
+    console.log("7 X " + i + " = " + 7 * i);
+}
+
+// Output:
+// 7 X 1 = 7
+// 7 X 2 = 14
+// 7 X 3 = 21
+// ... and so on</code></pre>
+                    </div>
+                </article>
+
+                <!-- JS 9 -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>JS 9: While & Do-While Loops</h3>
+                        <span class="branch-tag">js-9-nested-loop</span>
+                    </div>
+                    <div class="card-body">
+                        <p>While loops and number guessing game.</p>
+                        <pre><code class="language-javascript">var i = 1;
+
+// While loop
+while (i <= 10) {
+    console.log(i);
+    i++;
+}
+
+// Do-While loop
+var i = 1;
+do {
+    console.log(i);
+    i++;
+} while (i <= 10);
+
+// Number guessing game
+var secret = 9;
+var i = 1;
+var prediction = +prompt("Enter any num");
+
+while (prediction !== secret) {
+    prediction = +prompt("Enter any num");
+    i++;
+}
+console.log("You entered correct number!");</code></pre>
+                    </div>
+                </article>
+
+                <!-- JS 10 -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>JS 10: Arrays</h3>
+                        <span class="branch-tag">js-10-arrays</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Array creation, accessing elements, and push method.</p>
+                        <pre><code class="language-javascript">// Create an array
+var studentData = [
+    "Ahmed", "Tayyab", "Aeiyan", "Hassnain", 
+    "Moiz", "Wali", "Raheem", "Hamza", 
+    "Imran Khan", "Qasim"
+];
+
+// Add element at the end
+studentData.push("Ahmed");
+studentData.push("Ali", "Khan", "Imam");
+console.log(studentData);
+
+// Access elements by index
+console.log(studentData[0], studentData[1]);
+
+// Update element
+studentData[4] = "Sami";
+
+// Loop through array
+for (var i = 0; i <= 9; i++) {
+    console.log(i, studentData[i]);
+}</code></pre>
+                    </div>
+                </article>
+
+                <!-- JS 11 -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>JS 11: Array Loops</h3>
+                        <span class="branch-tag">js-11-array-loops</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Array methods: unshift, shift, splice, and sort.</p>
+                        <pre><code class="language-javascript">var fruits = ['peach', 'mango', 'apple', 'grapes', 
+              'banana', 'guava', 'orange'];
+var numbers = [1, 2, 4, 5, 7, 8, 9, 10, 11];
+
+// Add element at the beginning
+fruits.unshift("Mango");
+
+// Remove first element
+fruits.shift();
+
+// Insert at specific position
+fruits.splice(1, 0, "Strawberry");
+
+// Sort numbers
+numbers.sort((a, b) => a - b);
+console.log(numbers);
+
+// Loop through array
+for (var i = 0; i < 5; i++) {
+    console.log(fruits[i]);
+}
+
+// For-in loop
+for (var i in fruits) {
+    console.log(fruits[i]);
+}</code></pre>
+                    </div>
+                </article>
+
+                <!-- JS 12 -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>JS 12: Array Methods</h3>
+                        <span class="branch-tag">js-12-array-methods</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Concat, sort, charCodeAt, and includes methods.</p>
+                        <pre><code class="language-javascript">var studentsA = ["Ahmed", "Sami", "Ali", "Moiz", "Bhatti"];
+var studentsB = ["Usama", "Shahzaib", "Babar", "Moiz", "Ali"];
+
+// Merge arrays
+var mergeStudentData = studentsA.concat(studentsB);
+console.log(mergeStudentData);
+
+// Sort numbers in descending order
+var numbers = [1, 3, 7, 6, 4, 2, -1, 5, 10, 8, 9, 0];
+console.log(numbers.sort((a, b) => b - a));
+
+// Get character code
+var firstName = "Aeiyan Khan";
+console.log(firstName.charCodeAt("A"));
+
+// Check if array includes element
+var str = ["hello", "world"];
+console.log(str.includes("world")); // true</code></pre>
+                    </div>
+                </article>
+
+                <!-- JS 13 -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>JS 13: Objects</h3>
+                        <span class="branch-tag">js-13-object</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Object creation, nested objects, and arrays of objects.</p>
+                        <pre><code class="language-javascript">// Create an object
+var student = {};
+student.name = "Aeiyan";
+console.log(student);
+
+// Object with properties
+var mobile = {
+    brand: "Samsung",
+    price: 56000,
+    "First Name": "Aeiyan",
+    OS: "Android",
+    RAM: "16GB",
+    color: ["blue", "black", "red"],
+    isInStock: true,
+    discount: 20,
+    specification: {
+        resolution: "728X1028",
+        display: "OLED",
+        storage: "512GB"
+    }
+};
+
+// Array of objects
+var mobilePhones = [
+    { brand: "iPhone", OS: "iOS", RAM: "36GB" },
+    { brand: "Samsung", OS: "Android", RAM: "26GB" },
+    { brand: "Huawei", OS: "Huawei", RAM: "86GB" }
+];
+
+// Loop through array of objects
+for (var i = 0; i < mobilePhones.length; i++) {
+    console.log(mobilePhones[i].brand);
+}</code></pre>
+                    </div>
+                </article>
+
+                <!-- JS 14 -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>JS 14: Functions</h3>
+                        <span class="branch-tag">js-14-functions</span>
+                    </div>
+                    <div class="card-body">
+                        <p>var vs let vs const, and function declarations.</p>
+                        <pre><code class="language-javascript">// VAR - can be re-declared
+var studentName = "Aeiyan Khan";
+var studentName = "Ahmed"; // OK
+console.log(studentName);
+
+// LET - cannot be re-declared
+let studentName2 = "Ahmed";
+// let studentName2 = "Ali"; // Error!
+console.log(studentName2);
+
+// CONST - cannot be re-declared or reassigned
+const studentName3 = "Ahmed";
+console.log(studentName3);
+
+// Simple Function
+function intro() {
+    console.log("Hello this is Aeiyan");
+}
+intro();
+
+// Function with parameters
+function intro(name, age, course) {
+    console.log("Welcome " + name + " " + age + " " + course);
+}
+intro("Waleed", 20, 'Web and App');
+
+// Function call before declaration (hoisting)
+addition(4, 5);
+function addition(num1, num2) {
+    console.log(+num1 + +num2);
+}</code></pre>
+                    </div>
+                </article>
+
+                <!-- JS 15 -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>JS 15: Arrow Functions</h3>
+                        <span class="branch-tag">js-15-arrow-functions</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Arrow functions, IIFE, setTimeout, and forEach.</p>
+                        <pre><code class="language-javascript">// Function Expression
+const xyz = function(name, age) {
+    console.log(name, age);
+};
+xyz("Aeiyan", 18);
+
+// Arrow Function
+const multiply = () => {
+    console.log("This is an arrow function");
+};
+multiply();
+
+// setTimeout with arrow function
+setTimeout(() => {
+    console.log("This line executes after 2 seconds");
+}, 2000);
+
+// Immediately Invoked Function Expression (IIFE)
+(() => {
+    console.log("This is immediately called");
+})();
+
+// Return from arrow function
+const returnData = () => {
+    return "Return this information";
+};
+const output = returnData();
+console.log(output);
+
+// forEach with arrow function
+const numbers = [1, 2, 3, 4, 5, 6];
+numbers.forEach((value, i) => {
+    console.log(value * value);
+});</code></pre>
+                    </div>
+                </article>
+
+                <!-- JS 16 -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>JS 16: DOM Part 1 - Selectors</h3>
+                        <span class="branch-tag">js-16-DOM-part-1</span>
+                    </div>
+                    <div class="card-body">
+                        <p>DOM selectors: getElementById, getElementsByClassName, querySelector.</p>
+                        <pre><code class="language-javascript">// Select by ID
+const intro = document.getElementById("intro");
+intro.innerHTML = "&lt;mark&gt;This is bold text&lt;/mark&gt;";
+
+// Select by Class Name
+const introClass = document.getElementsByClassName("intro-1");
+introClass[0].textContent = "DOM";
+
+// Select by Tag Name
+const introTag = document.getElementsByTagName("h1");
+introTag[0].textContent = "This text comes from DOM";
+
+// querySelector - selects first matching element
+const querySelector = document.querySelector("h1");
+querySelector.innerHTML = "&lt;i&gt;This is a query Selector&lt;/i&gt;";
+
+// querySelectorAll - selects all matching elements
+const querySelectorAll = document.querySelectorAll(".intro");
+querySelectorAll[0].textContent = "1";</code></pre>
+                    </div>
+                </article>
+
+                <!-- JS 17 -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>JS 17: DOM Part 2 - Styling</h3>
+                        <span class="branch-tag">js-17-DOM-part-2</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Manipulating styles with JavaScript.</p>
+                        <pre><code class="language-javascript">// Select element
+const introDOMById = document.getElementById("introDOM");
+console.log(introDOMById);
+
+const introDOM = document.getElementsByClassName("xyz");
+console.log(introDOM[1]);
+
+const introTag = document.getElementsByTagName("h1");
+console.log(introTag[1]);
+
+// Change styles with JavaScript
+const intro = document.querySelector(".h1Style");
+intro.style.color = "green";
+intro.style.backgroundColor = "yellow";
+intro.style.fontSize = "50px";</code></pre>
+                    </div>
+                </article>
+
+                <!-- JS 18 -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>JS 18: DOM Part 3 - Events</h3>
+                        <span class="branch-tag">js-18-DOM-part-3</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Event listeners, classList toggle, setAttribute, and removeAttribute.</p>
+                        <pre><code class="language-javascript">// Toggle class
+const activeEle = document.getElementsByTagName("h1");
+activeEle[0].classList.toggle("active");
+
+// Get image element
+const image = document.getElementById("uniqueImage");
+
+// Set attribute
+image.setAttribute("src", "https://picsum.photos/200/300");
+
+// Button handling
+const btn = document.getElementsByTagName("button");
+btn[0].setAttribute("disabled", "true");
+btn[0].removeAttribute("disabled");
+
+// Event listener
+const btn2 = document.getElementsByTagName("button");
+const userInput = document.getElementById("userData");
+
+btn2[0].addEventListener("click", () => {
+    userInput.value = "New Value";
+    
+    // Toggle image source
+    if (isNewImage) {
+        image.setAttribute("src", "image1.jpg");
+    } else {
+        image.setAttribute("src", "image2.jpg");
+    }
+    isNewImage = !isNewImage;
+});
+
+// Input event listener
+userInput.addEventListener("input", (event) => {
+    console.log(event.target.value);
+});</code></pre>
+                    </div>
+                </article>
+
+                <!-- JS 19 -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>JS 19: DOM Part 4 - Creating Elements</h3>
+                        <span class="branch-tag">js-19-DOM-part-4</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Creating and appending elements dynamically, form event handling.</p>
+                        <pre><code class="language-javascript">const body = document.getElementsByTagName("body");
+
+function GetInputData() {
+    event.preventDefault();
+    const input = document.getElementById("input");
+    console.log(input.value);
+}
+
+// Create and append new element
+const h1 = document.createElement("h1");
+body[0].append(h1);
+
+h1.textContent = "Hello World from DOM";
+console.log(h1);</code></pre>
+                    </div>
+                </article>
+
+                <!-- Browser Storage -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>Browser Storage</h3>
+                        <span class="branch-tag">Browser-Storage</span>
+                    </div>
+                    <div class="card-body">
+                        <p>localStorage, sessionStorage, and cookies for storing data in the browser.</p>
+                        <pre><code class="language-javascript">// Local Storage
+localStorage.setItem("name", "Aeiyan Khan");
+localStorage.setItem("name", "Ahmed");
+localStorage.clear();
+
+const userInfo = document.getElementById("userData");
+const UserName = localStorage.getItem("name");
+// localStorage.removeItem("name")
+userInfo.textContent = UserName;
+
+// Session Storage
+sessionStorage.setItem("email", "test1234@gmail.com");
+const email = sessionStorage.getItem("email");
+userInfo.textContent = email;
+
+// Cookies Storage
+document.cookie = "name=aeiyan;expires=Fri, 31 Dec 2030;path=/";
+document.cookie = "email=test12;expires=Fri, 31 Dec 2030;path=/";
+document.cookie = "name=''";</code></pre>
+                    </div>
+                </article>
+
+                <!-- Calculator App -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>Calculator App</h3>
+                        <span class="branch-tag">Calculator-app</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Simple calculator using JavaScript with display, calculate, and clear functions.</p>
+                        <pre><code class="language-javascript">const inputValue = document.getElementById("display");
+
+const displayValue = (n) => {
+    inputValue.value += n;
+    console.log(n);
+};
+
+function calculate() {
+    inputValue.value = eval(inputValue.value);
+}
+
+function clearAllData() {
+    inputValue.value = "";
+}</code></pre>
+                    </div>
+                </article>
+
+                <!-- Todo App -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>Todo App</h3>
+                        <span class="branch-tag">Todo-app</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Interactive Todo application with add, update, and delete functionality.</p>
+                        <pre><code class="language-javascript">const todoList = document.getElementById("todoList");
+const Inputvalue = document.getElementById("todoInput");
+let isUpdated = false;
+
+function addTodo(ele) {
+    if (isUpdated) return;
+    
+    let cleanInput = Inputvalue.value;
+    if (Inputvalue.value == "") {
+        alert("Invalid Value");
+    } else {
+        const li = document.createElement("li");
+        const delbtn = document.createElement("button");
+        const updatebtn = document.createElement("button");
+        const text = document.createElement("i");
+        text.innerText = Inputvalue.value;
+
+        delbtn.addEventListener("click", () => {
+            li.remove();
+        });
+
+        updatebtn.addEventListener("click", () => {
+            isUpdated = true;
+            Inputvalue.value = text.textContent;
+            ele.textContent = "Update";
+            ele.addEventListener("click", () => {
+                text.textContent = Inputvalue.value;
+                ele.textContent = "Add +";
+                isUpdated = false;
+            });
+        });
+
+        delbtn.textContent = "Delete";
+        updatebtn.innerText = "Update";
+        li.append(text);
+        li.append(delbtn);
+        li.append(updatebtn);
+        todoList.append(li);
+        Inputvalue.value = "";
+    }
+}</code></pre>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; <span id="cr-year">2025</span> SMIT Web & App Batch 8. Code Snippets Collection.</p>
+            <p>Developed by Aeiyan Khan</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js" integrity="sha512-D9gUyxqja7hBtkWpPWGt9wfbfaMGVt9gnyCvYa+jojwwPHLCzUm5i8rpk7vD7wNee9bA35eYIjobYPaQuKS1MQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
 </html>
