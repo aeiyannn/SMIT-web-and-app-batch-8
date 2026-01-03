@@ -1142,6 +1142,138 @@ userInput.addEventListener("input", (event) => {
                     </div>
                 </article>
 
+                <!-- JS 19 -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>JS 19: DOM Part 4 - Creating Elements</h3>
+                        <span class="branch-tag">js-19-DOM-part-4</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Creating and appending elements dynamically, form event handling.</p>
+                        <pre><code class="language-javascript">const body = document.getElementsByTagName("body");
+
+function GetInputData() {
+    event.preventDefault();
+    const input = document.getElementById("input");
+    console.log(input.value);
+}
+
+// Create and append new element
+const h1 = document.createElement("h1");
+body[0].append(h1);
+
+h1.textContent = "Hello World from DOM";
+console.log(h1);</code></pre>
+                    </div>
+                </article>
+
+                <!-- Browser Storage -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>Browser Storage</h3>
+                        <span class="branch-tag">Browser-Storage</span>
+                    </div>
+                    <div class="card-body">
+                        <p>localStorage, sessionStorage, and cookies for storing data in the browser.</p>
+                        <pre><code class="language-javascript">// Local Storage
+localStorage.setItem("name", "Aeiyan Khan");
+localStorage.setItem("name", "Ahmed");
+localStorage.clear();
+
+const userInfo = document.getElementById("userData");
+const UserName = localStorage.getItem("name");
+// localStorage.removeItem("name")
+userInfo.textContent = UserName;
+
+// Session Storage
+sessionStorage.setItem("email", "test1234@gmail.com");
+const email = sessionStorage.getItem("email");
+userInfo.textContent = email;
+
+// Cookies Storage
+document.cookie = "name=aeiyan;expires=Fri, 31 Dec 2030;path=/";
+document.cookie = "email=test12;expires=Fri, 31 Dec 2030;path=/";
+document.cookie = "name=''";</code></pre>
+                    </div>
+                </article>
+
+                <!-- Calculator App -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>Calculator App</h3>
+                        <span class="branch-tag">Calculator-app</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Simple calculator using JavaScript with display, calculate, and clear functions.</p>
+                        <pre><code class="language-javascript">const inputValue = document.getElementById("display");
+
+const displayValue = (n) => {
+    inputValue.value += n;
+    console.log(n);
+};
+
+function calculate() {
+    inputValue.value = eval(inputValue.value);
+}
+
+function clearAllData() {
+    inputValue.value = "";
+}</code></pre>
+                    </div>
+                </article>
+
+                <!-- Todo App -->
+                <article class="snippet-card">
+                    <div class="card-header">
+                        <h3>Todo App</h3>
+                        <span class="branch-tag">Todo-app</span>
+                    </div>
+                    <div class="card-body">
+                        <p>Interactive Todo application with add, update, and delete functionality.</p>
+                        <pre><code class="language-javascript">const todoList = document.getElementById("todoList");
+const Inputvalue = document.getElementById("todoInput");
+let isUpdated = false;
+
+function addTodo(ele) {
+    if (isUpdated) return;
+    
+    let cleanInput = Inputvalue.value;
+    if (Inputvalue.value == "") {
+        alert("Invalid Value");
+    } else {
+        const li = document.createElement("li");
+        const delbtn = document.createElement("button");
+        const updatebtn = document.createElement("button");
+        const text = document.createElement("i");
+        text.innerText = Inputvalue.value;
+
+        delbtn.addEventListener("click", () => {
+            li.remove();
+        });
+
+        updatebtn.addEventListener("click", () => {
+            isUpdated = true;
+            Inputvalue.value = text.textContent;
+            ele.textContent = "Update";
+            ele.addEventListener("click", () => {
+                text.textContent = Inputvalue.value;
+                ele.textContent = "Add +";
+                isUpdated = false;
+            });
+        });
+
+        delbtn.textContent = "Delete";
+        updatebtn.innerText = "Update";
+        li.append(text);
+        li.append(delbtn);
+        li.append(updatebtn);
+        todoList.append(li);
+        Inputvalue.value = "";
+    }
+}</code></pre>
+                    </div>
+                </article>
+
             </div>
         </section>
     </main>
