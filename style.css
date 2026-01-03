@@ -1,0 +1,41 @@
+
+.todoContainer {
+    margin: 0 auto;
+    width: 60%;
+    background-color: aqua;
+    height:600px;
+    text-align: center;
+}
+#todoInput {
+    width: 70%;
+    padding: 10px;
+    border: gray;
+    border-radius: 8px;
+}
+#todobtn {
+    padding: 8px 16px;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+}
+#todoList li {
+    font-size: 20px;
+
+} 
+#todoList li :nth-child(1) {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+}
+#todoList li :nth-child(2) {
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+}
+
