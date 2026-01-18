@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="search-box" onsubmit="getWetherData()" action="#">
+            <input id="inputData" type="text" placeholder="Enter City Name">
+            <button><img class="search-btn" src="./search-icon.png" alt="" srcset=""></button>
+        </form>
+        <div class="weather-continer">
+            <img class="weather-img" src="./weather-icon.png" alt="">
+            <h1 id="temp">22°C</h1>
+            <h2 id="city">Hyderabad</h2>
+        </div>
+        <div class="other-details">
+            <div class="humidity">
+                <img class="other-img" src="https://cdn-icons-png.flaticon.com/512/4148/4148460.png" alt="">
+                <p>Humidity</p>
+                <p id="humidity">64%</p>
+            </div>
+            <div class="windspeed">
+                <img class="other-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyUlCYY-K8bLtG8QBbkKQ3GKXR6gZ-FdZ_7g&s"
+                    alt="">
+                <P >Windspeed</P>
+                <p id="windspeed">18km/h</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
