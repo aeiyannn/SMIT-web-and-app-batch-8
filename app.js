@@ -1,23 +1,58 @@
-// local storage
-localStorage.setItem("name", "Aeiyan Khan");
-localStorage.setItem("name", "Ahmed");
-localStorage.clear();
+// let name = "Aeiyan Khan"
+// let age =21
 
-// localStorage.setItem("email","test@yopmail.com")
+// console.log("my Name is" + name + "and my age is" + age + "and i am learning we and app")
 
-const userInfo = document.getElementById("userData");
-const UserName = localStorage.getItem("name");
-// localStorage.removeItem("name")
-userInfo.textContent = UserName;
+// template literal
+// console.log(`my name is ${name} and my age is ${age} `)
 
-// Session Storage
+// destructring
 
-// sessionStorage.setItem("email","test1234@gmail.com")
-const email = sessionStorage.getItem("email");
-userInfo.textContent = email;
+const user ={
+    name:"ALi",
+    age:23,
+    id:"TS1235"
+}
+const user1 ={
+    name:"ALi",
+    age:23,
+    id:"TS1235",
+    additionaldata:{
+        courseName:"xyz"
+    }
+}
+const {additionaldata } =user1
+const {courseName}=additionaldata
 
-// cookies Storage
 
-document.cookie = "name=aeiyan;expires=Fri, 31 Dec 2030;path=/";
-document.cookie = "email=test12;expires=Fri, 31 Dec 2030;path=/";
-document.cookie="name=''"
+
+console.log(courseName)
+
+
+// const studentName=[ 1,2,3,4]
+//  let [ std1Name, , ,std4Name ]=studentName
+//  console.log(std1Name,std4Name)
+
+
+// const obj1={
+//     name:"Aeiyan",
+//     age:20
+// }
+// const obj2 ={
+//     id:'uffufufu',
+//     isLogin:true
+// }
+//  const studentName1=["Ali","Ahmed","Waqas"]
+//   const studentName2=["Aeiyan","Walled","Sattar"]
+//  let arr = [...studentName1,...studentName2]
+//  const newObj={
+//     ...obj1,
+//     ...obj2
+//  }
+//  console.log(newObj)
+
+
+const studentName=["Ali","Ahmed","furqan"]
+const copystudentName=[...studentName]
+copystudentName.push("Waqas")
+console.log(copystudentName,studentName)
