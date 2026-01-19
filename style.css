@@ -1,0 +1,47 @@
+:root {
+    --primary: blue;
+    --secondary: #101622;
+    --xColor: #ff00ff;
+    --oColor: #39ff14
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary);
+    color: white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 400px;
+    height: 400px;
+    gap: 15px;
+    border-radius: 8px;
+    border: 1px solid var(--primary);
+    padding: 15px;
+    background-color: black;
+}
+
+.box {
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid var(--primary);
+    background-color: var(--secondary);
+    font-size: 35px;
+    color: var(--xColor);
+    font-weight: bold;
+    text-shadow: 3px 3px 8px var(--xColor) ;
+}
