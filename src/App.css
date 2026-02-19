@@ -1,0 +1,9 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.intro {
+  color: red;
+  border: 3px solid yellow;
+}
